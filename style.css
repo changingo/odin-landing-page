@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, nav, ul {
+    display: flex;
+
+}
+
+ul {
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.logo {
+    margin: 0 24px 0 0;
+}
+
+.links {
+    display: flex;
+}
