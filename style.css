@@ -10,22 +10,21 @@ body {
 
 header, nav, ul {
     display: flex;
+    gap: 24px;
+    padding: 4px;
 
 }
 
-ul {
+nav {
+}
+
+.logo, .links {
+    margin: auto;
     justify-content: flex-end;
+    flex: 1 0 auto;
 }
 
 li {
     list-style: none;
-    justify-content: flex-end;
-}
-
-.logo {
-    margin: 0 24px 0 0;
-}
-
-.links {
-    display: flex;
+    justify-content: space-between;
 }
